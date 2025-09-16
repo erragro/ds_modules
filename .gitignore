@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Outputs (ignore generated files only)
+clean_outputs/
+!raw/*.csv   # allow raw CSVs to be tracked
+
+# Ignore other data dumps
+*.xlsx
+*.parquet
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Local configs
+*.env
+.env*
