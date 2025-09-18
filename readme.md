@@ -73,7 +73,7 @@ python ds_modules/clean_dataset.py --path raw/ecommerce_sales.csv \
 ```bash
 python ds_modules/elasticity_estimation.py --path raw/clean_outputs/ecommerce_sales_cleaned.csv 
 ```
-# (Optional) Pre-merge scenarios with fits for Step 4
+# Pre-merge scenarios with fits for Step 4
 ```bash
 python ds_modules/merge_scenarios.py 
 ```
