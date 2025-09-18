@@ -3,8 +3,8 @@
 merge_step3_outputs.py
 Purpose: Pre-merge Step-3 outputs so Step-4 has units/R²/beta baked in.
 Inputs:
-  - clean_outputs/out_refined/scenarios_refined.csv
-  - clean_outputs/out_refined/elasticity_segments.csv
+  - raw/clean_outputs/out_refined/scenarios_refined.csv
+  - raw/clean_outputs/out_refined/elasticity_segments.csv
 Output:
   - clean_outputs/out_refined/scenarios_merged.csv
 """
@@ -13,7 +13,7 @@ from __future__ import annotations
 import pandas as pd
 from pathlib import Path
 
-BASE = Path("clean_outputs/out_refined")
+BASE = Path("raw/clean_outputs/out_refined")
 SCN_PATH = BASE / "scenarios_refined.csv"
 FIT_PATH = BASE / "elasticity_segments.csv"
 OUT_PATH = BASE / "scenarios_merged.csv"

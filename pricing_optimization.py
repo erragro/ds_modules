@@ -12,9 +12,9 @@ import pandas as pd
 
 # ============================ CONFIG ============================
 # Point to the PRE-MERGED scenarios by default:
-SCENARIOS_PATH = Path("clean_outputs/out_refined/scenarios_merged.csv")
+SCENARIOS_PATH = Path("raw/clean_outputs/out_refined/scenarios_merged.csv")
 # Keep FIT_PATH available (used only if scenarios are NOT merged):
-FIT_PATH       = Path("clean_outputs/out_refined/elasticity_segments.csv")
+FIT_PATH       = Path("raw/clean_outputs/out_refined/elasticity_segments.csv")
 OUT_DIR        = SCENARIOS_PATH.parent / "out_opt"
 
 # Guardrails (tightened)
